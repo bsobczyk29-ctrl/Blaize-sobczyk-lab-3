@@ -24,11 +24,12 @@ def div(x,y):
 
 print("welcome to my amazing calc app!!!")
 print("what would you like to do?")
-print("type (a)dd (s)ubtract (m)ultiply (d)ivide (q)uit")
 
-user_choice = input(": ")
-#print(user_choice) 
+ 
 while(True):
+    print("type (a)dd (s)ubtract (m)ultiply (d)ivide (q)uit")
+    user_choice = input(": ")
+#print(user_choice) 
     if user_choice == 'a':
         x=int(input("Enter the first number"))
         y=int(input("Enter the second number"))
